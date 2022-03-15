@@ -1,4 +1,6 @@
+#include "linked.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - main block
  * Return: 0
