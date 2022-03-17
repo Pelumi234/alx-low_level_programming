@@ -1,1 +1,1 @@
-You will learn about basics of C programming language
+This covers debugging as a whole
