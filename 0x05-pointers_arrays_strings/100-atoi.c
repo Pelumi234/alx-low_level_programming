@@ -3,7 +3,7 @@ include "main.h"
 /**
  * _atoi - int
  * @s: pointer
- * Return: int
+ * Return: int.
  */
 
 int _atoi(char *s)
