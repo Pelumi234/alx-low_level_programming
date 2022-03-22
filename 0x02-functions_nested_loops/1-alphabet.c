@@ -2,16 +2,19 @@
 
 /**
  * print_alphabet - This function prints alphabets in lowercase
+ * 
  */
 void print_alphabet(void)
 {
-	int i
+	char ch;
 
-	for (i = 'a'; i <= 'z'; i++)
+	ch = 'a';
 
+	while (ch  <= 'z')
 	{
 
-		_putchar(i);
+		_putchar(ch);
+		ch++;
 	}
 
 	_putchar('\n');
