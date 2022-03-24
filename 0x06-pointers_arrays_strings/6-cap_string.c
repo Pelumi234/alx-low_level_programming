@@ -17,7 +17,7 @@ i
 	{
 		if (s[0] >= 97 && s[0] 	<= 122)
 			s[0] + s[0] - 32;
-				for (j = 0; delimetiers[j] != '\0'; j++)
+				for (j = 0; delimeters[j] != '\0'; j++)
 					if (s[i + 1] == delimeters[j] && s[i + 1] >= 97 && s[i + 1] <= 122)
 						s[i + 1] = s[i + 1] - 32;
 	}
