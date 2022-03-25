@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * *cap_string - this capitalizes every word of a string
@@ -12,7 +11,7 @@ char *cap_string(char *s)
 {
 	int i, j;
 
-	char spe[13] = {' ', 't', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+	char spe[13] = {'','\t','\n',',',';',',','!', '?','"','(',')','{','}'};
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
