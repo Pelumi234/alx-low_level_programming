@@ -5,6 +5,7 @@
  * @dest: char array to copy into
  * @src: char array to copy from
  * @n: number of elements to copy
+ *
  * Return: pointer to `dest`
  */
 
