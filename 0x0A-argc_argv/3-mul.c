@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * main - multiply 2 numbers passed to main, or Error
+ * main - multiply two numbers passed to main, or Error
  * @argc: argument count
  * @argv: argument vector
  * Return: 1 if error, 0 if function runs correctly
  */
-int main(int argc, char @argv[])
+int main(int argc, char *argv[])
 {
 	(void) argc;
 
